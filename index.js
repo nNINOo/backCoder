@@ -40,12 +40,6 @@ class Desafio{
 }
 
 const documento=new Desafio('desafio')
- documento.save({
-     title: 'Calculadora',
-     price: 234.56,
-     thumbnail: 'https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png',
-     id: 2
- })
 
 const randomFunction=(limite)=>{
     return parseInt(Math.random()*limite) + 1
